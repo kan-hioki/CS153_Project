@@ -12,7 +12,7 @@ Except:
 - Array cannot be the return type of functions  
 - A few built-in function(printf, input stoi, stod, rand)  
 - Local variables have function scope, not block scope  
-###### Data Types ######
+#### Data Types ####
 int  
 - Can be initialized.  
 - Ex: int i = 0;  
@@ -25,11 +25,11 @@ string
 - Cannot be compared or concatenated with another string.  
 void  
 - Can only be used for the return type of functions.  
-###### Arrays ######
+#### Arrays ####
 - All data types except void can be an array.  
 - Ex: int a[10];  
 - The dimension of array is not limited.  
-###### Statements ######
+#### Statements ####
 block statment  
 - Series of statements surrounded by '{' and '}'.  
 - Variables declared inside the statement is also valid outside of the statement.  
@@ -53,7 +53,7 @@ return statement
 Increment and decrement statement  
 - ++ and -- can be placed before or after a variable.  
 - Cannot be assigned to variable, that is, an assignment statement such as j = i++; does not work.  
-###### Expressions ######
+#### Expressions ####
 An expression can be one of these(the topmost one has the highest priority)  
 - variable  
 - integer number  
@@ -69,14 +69,14 @@ An expression can be one of these(the topmost one has the highest priority)
 - expression = or !=expression  
 - expression && expression  
 - expression || expression  
-###### Main function ######
+#### Main function ####
 - There must be only one ‘main’ function.  
 - Return type must be ‘int’.  
-######User-defined functions ######
+#### User-defined functions ####
 - Return type must be either ‘int’, ‘double’, ‘string’ or ‘void’.  
 - Argument type must be either ‘int’, ‘double’, ‘string’, or an array of one of those types.  
 - Execution path must end with a ‘return’ statement.  
-###### Built-in functions ######
+#### Built-in functions ####
 printf  
 - Follows the rule of System.out.printf in Java.  
 input  
