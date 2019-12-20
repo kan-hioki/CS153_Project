@@ -54,7 +54,7 @@ Except:
 - ++ and -- can be placed before or after a variable.  
 - Cannot be assigned to variable, that is, an assignment statement such as j = i++; does not work.  
 #### Expressions
-###### An expression can be one of these(the topmost one has the highest priority)
+An expression can be one of these(the topmost one has the highest priority)  
 - variable  
 - integer number  
 - double number  
