@@ -1,12 +1,12 @@
 ## CS153_Project
 
-This is a subset of C language  
-Except:  
+This is a compiler to compile a subset of C language  
 - The built-in string type  
 - No preprocessor, such as ‘include’ or ‘define’  
 - No struct and union  
 - No shortcut for initializing an array  
 - No pointer, except when passing an array to function  
+- No automatic type conversion  
 - Function prototype is not needed  
 - Global variables can be placed anywhere outside of functions  
 - Array cannot be the return type of functions  
